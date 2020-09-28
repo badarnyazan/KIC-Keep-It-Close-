@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnectionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="vertical"
+            android:id="@+id/recycle_view"/>
+
+       <!-- <Button
+            android:id="@+id/lost_button  scan_lost_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:text="   scan lost items"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"/> -->
+
+        <Button
+            android:id="@+id/lost_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:text="Lost item"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>
